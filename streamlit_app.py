@@ -50,7 +50,7 @@ except URLError as e:
 
 # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 # streamlit.text("Hello from Snowflake:")
-streamlit.header("The fruit load list contains:")
+streamlit.header("View our Fruit List - Add Your favorites !")
 # Snowflake related function
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
